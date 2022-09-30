@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(Fonts/Oswald-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: Oswald;
+}
+nav {
+    background: #B8CB21;
+    font-size: 1.3em;
+    height: 125px;
+  }
+  nav ul{
+    display: inline-block;
+    padding-top: 40px;
+  }
+  nav ul li{
+    padding:30px 20px;
+    text-decoration: underline;
+
+  }
+.header{
+    
+    font-family: Oswald;
+  }
+.MDR{
+    display: inline;
+}
+h2{
+    padding: 20px;
+    font-family: Oswald;
+    color: #B8CB21;
+}
+p{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+.WHO{
+    width: 250px;
+    height: 80px;
+}
+.HM{
+    float: left;
+    margin-right: 10px;
+  }
+h2{
+    margin-left: 20px;
+}
+.pic{
+    width: 300;
+    height: 150;
+    margin-left: 30px;
+}
+body{
+    background-image: url(Images/fond.png);
+}
+.Container{
+    width: 700px;
+    margin: auto;
+}
+main{
+    background-color: azure;
+    padding: 20px;
+}
+.bottom{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.WA {
+    margin: auto;
+    width: 0px;
+
+}
+.WA img{
+    width: 40px;
+}
+.btn {
+    background: #B8CB21;
+    outline: none;
+    border: none;
+    padding: 10px;
+    font-family: "tahoma";
+    color: #fff;
+    display: block;
+    float: right;
+  }
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+      font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
